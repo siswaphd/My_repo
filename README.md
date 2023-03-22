@@ -45,6 +45,7 @@ Detail description for datasets and sources are in respective script.
 <b>Packages</b> &emsp;: ee/earth engine, tensorflow, sckit-learn, and plotly (optional for interactive plot)<br/>
 <b>Method</b> &emsp; &emsp;: machine learning by Long-Short Term Memory (LSTM) Neural Network and Gaussian Process (GP) <br/>
 Output as interactive chart is available at [<b>Datapane.com</b>](https://cloud.datapane.com/reports/dA610mk/interactive-chart-machine-learning-lstm-for-forecasting-air-pollution/)<br/>
+<br/>
 ![alt text](https://github.com/siswaphd/My_repo/blob/main/images/3_ML_LSTM_GP.png "Logo Title Text 1")<br/>
 
 ### <b>04. Deforestation simulation </b><br/>
@@ -53,13 +54,14 @@ Output as interactive chart is available at [<b>Datapane.com</b>](https://cloud.
 <b>Spatial data</b> : map of Canopy Height Model (CHM) from SRTM-X DLR (German Space Center) and logging trails/road network derived from very-high resolution aerial images <br/>
 <b>Packages</b> &emsp;: GDAL, scikit-learn, scipy<br/>
 <b>Method</b> &emsp; &emsp;: machine learning by Randon Forest and OLS <br/>
-Output as interactive chart is available at [<b>Datapane.com</b>](https://cloud.datapane.com/reports/q34BNqk/deforestation-simulation/)<br/>
+Output as interactive map is available at [<b>Datapane.com</b>](https://cloud.datapane.com/reports/q34BNqk/deforestation-simulation/)<br/>
+<br/>
 ![alt text](https://github.com/siswaphd/My_repo/blob/main/images/4_deforestation_simulation.gif "Logo Title Text 1")<br/>
 
 ### <b>05. Interactive chart </b><br/>
 
 <b>Objective</b> &emsp;: <br/>
-<b>Spatial data</b> : Vegetation paramters (daily water uptake and growth from dendrometer data) and environemntal/hydro-meterological parameters (watertable depth, rainfall, temeprature, humidity, PAR) <br/>
+<b>Spatial data</b> : Vegetation paramters (daily water uptake and growth from dendrometer data) and environmental/hydro-meterological parameters (watertable depth, rainfall, temperature, humidity, PAR) <br/>
 <b>Packages</b> &emsp;: scipy, plotly<br/>
 <b>Method</b> &emsp; &emsp;: Time-series analysis and Zero-Growth Approach for dendormeter data<br/>
 Output as interactive chart is available at [<b>Datapane.com</b>](https://cloud.datapane.com/reports/E7o5E2A/interactive-chart-tree-physiology/)<br/>
