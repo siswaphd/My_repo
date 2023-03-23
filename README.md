@@ -1,6 +1,6 @@
-## <b>Overview</b> 
+## <b>Brief overview</b> 
 
-Brief description of each pipeline/code. These python scripts are demonstration for some applications in remote sensing and spatial analysis.
+These python scripts are demonstration for some applications in remote sensing and spatial analysis.
 
  <img src="https://plotly.com/all_static/images/python.png"  width="40" height="40">
 
