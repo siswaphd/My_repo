@@ -30,8 +30,8 @@ Detail description for datasets and sources are in respective script.
 
 ### <b>02. Quantitave Spatial analysis of AIDS/HIV and Tubercolosis infections in Java Island, Indonesia</b> <br/>
 
-<b>Objective</b> &emsp;: <br/>
-<b>Spatial data</b> : Data statistic and demografi (Population) from BPS (<i>Badan Pusat Statistik</i>/Indonesian Statistic Central Agency)<br/>
+<b>Objective</b> &emsp;: Locating where the spot of high AIDS/HIV infection and wether there is interaction of AIDS infections between municipilaties trough spatial autocorrelation<br/>
+<b>Spatial data</b> : Data statistic of disease infection and demografi (Population) from BPS (<i>Badan Pusat Statistik</i>/Indonesian Statistic Central Agency)<br/>
 <b>Packages</b> &emsp;: geopandas, PySAL<br/>
 <b>Method</b> &emsp; &emsp;: OLS (Ordinary Least Square), ESDA (Exploratory Spatial Data Analysis), and GWR (Geographic Weighted Regression)  <br/>
 
@@ -40,7 +40,7 @@ Detail description for datasets and sources are in respective script.
 
 ### <b>03. Time series Froecasting by machine learning for Air quality(PM 2.5 concentration in Jakarta, Indonesia)</b> <br/>
 
-<b>Objective</b> &emsp;: <br/>
+<b>Objective</b> &emsp;: Forecasting the PM 2.5 concentration and defining how far in time conecntration from previous days (lag days) affect the forecast<br/>
 <b>Spatial data</b> : Time-series of PM 2.5 concentration from US embassy in Jakarta, and climates data (precipitation/rainfal, temperature, etc) ERA5 datasest available in Google earth Engine <br/>
 <b>Packages</b> &emsp;: ee/earth engine, tensorflow, sckit-learn, and plotly (optional for interactive plot)<br/>
 <b>Method</b> &emsp; &emsp;: machine learning by Long-Short Term Memory (LSTM) Neural Network and Gaussian Process (GP) <br/>
@@ -50,13 +50,16 @@ Output as interactive chart is available at [<b>Datapane.com</b>](https://cloud.
 
 ### <b>04. Deforestation simulation </b><br/>
 
-<b>Objective</b> &emsp;: <br/>
-<b>Spatial data</b> : map of Canopy Height Model (CHM) from SRTM-X DLR (German Space Center) and logging trails/road network derived from very-high resolution aerial images <br/>
+<b>Objective</b> &emsp;: Simulating the deforestation using logging trails and road networks. <br/>
+Forest is represented by Canopy Height Model (CHM), where forest are areas with high/tall CHM. In our case, CHM up to 35 m
+<br/>
+<b>Spatial data</b> : CHM 2000 is from SRTM-X DLR (German Space Center) and logging trails/road network derived from very-high resolution aerial images <br/>
 <b>Packages</b> &emsp;: GDAL, scikit-learn, scipy<br/>
-<b>Method</b> &emsp; &emsp;: machine learning by Randon Forest and OLS <br/>
+<b>Method</b> &emsp; &emsp;: machine learning by KNN, Random Forest, and costumized model<br/>
 Output as interactive map is available at [<b>Datapane.com</b>](https://cloud.datapane.com/reports/q34BNqk/deforestation-simulation/)<br/>
 <br/>
 ![alt text](https://github.com/siswaphd/My_repo/blob/main/images/4_deforestation_simulation.gif "Logo Title Text 1")<br/>
+![alt text](https://github.com/siswaphd/My_repo/blob/main/images/4_deforestation_simulation_Knn.png "Logo Title Text 1")<br/>
 
 ### <b>05. Interactive chart </b><br/>
 
@@ -68,7 +71,7 @@ Output as interactive chart is available at [<b>Datapane.com</b>](https://cloud.
 
 ### <b>06. Regional mapping of forest aboveground biomass (AGB) </b><br/>
 
-<b>Objective</b> &emsp;: <br/>
+<b>Objective</b> &emsp;: demonstrating ee/earth engine for mapping biomass at large scale<br/>
 <b>Spatial data</b> : Sentinel-2 and AGB biomass refrence from GEDI NASA mission <br/>
 <b>Packages</b> &emsp;: ee/earth engine, scikit-learn<br/>
 <b>Method</b> &emsp; &emsp;: machine learning by Random Forest<br/>
