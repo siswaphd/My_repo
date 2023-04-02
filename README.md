@@ -77,3 +77,17 @@ Output as interactive chart is available at [<b>Datapane.com</b>](https://cloud.
 <b>Method</b> &emsp; &emsp;: machine learning by Random Forest<br/>
 
 ![alt text](https://github.com/siswaphd/My_repo/blob/main/images/6_Biomass.png "Logo Title Text 1")<br/>
+
+### <b>07. Radiometric correction and LWR (locally weighted regression) for Sentinel-1</b><br/>
+
+<b>Objective</b> &emsp;: improving SNR Sentinel-1<br/>
+<b>Spatial data</b> : Sentinel-1 <br/>
+<b>Packages</b> &emsp;: snappy, rasterio<br/>
+
+### <b>08. Mapping burnt area, fire forecast, and fire frequency</b><br/>
+
+<b>Objective</b> &emsp;: <br/>
+<b>Spatial data</b> : MODIS, burnt area from EFFIS<br/>
+<b>Packages</b> &emsp;: ee/earth engine<br/>
+
+![alt text](https://github.com/siswaphd/My_repo/blob/main/images/8_burnt_area.png "Logo Title Text 1")<br/>
